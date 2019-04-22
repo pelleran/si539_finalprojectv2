@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138692623-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-138692623-1');
+        </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- added so that the media query will work -->
+    <link rel="shortcut icon" href="images/symbol_agile.png">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title >Andrea Pellerito</title>
+</head>
+
+<body>
+
+  <a href="#content" class="skip">Skip to content</a>
+
+
+  <header>
+
+    <!-- sticky nav source: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp -->
+
+      <div id="navbar">
+        <a href="index.html" class = "current">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="resume.html">Resume</a>
+        </div>
+  </header>
+
+
+  <main id="content">
+
+  <!-- Sources:
+  Bitmoji designed with the Bitmoji App on Android https://www.bitmoji.com/
+  interview by Gan Khoon Lay from the Noun Project
+  debug by Lemon Liu from the Noun Project
+  flowchart by W. X. Chee from the Noun Project
+  One Finger Touch by iconsmind.com from the Noun Project
+  Agile workflow method by Daniel Falk from the Noun Project
+  flowchart by Pundimon from the Noun Project -->
+
+    <h1>ABOUT</h1>
+
+   <!-- Typewriter source:  https://www.w3schools.com/howto/howto_js_typewriter.asp -->
+
+   <!-- Modal
+   Source https://www.w3schools.com/howto/howto_css_modals.asp -->
+
+
+      <!-- Trigger/Open The Modal -->
+      <div id="type-greeting" class="w3-button w3-white w3-ripple" tabindex = "0">
+          <img src = "images/bitmoji_andrea.png" alt = "Bitmoji Andrea">
+      </div>
+       
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+a
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class = "close">&times;</span>
+          <p id = "modalP">"default text"</p>
+        </div>
+
+      </div>    
+    
+
+<!-- Flip Card
+source: https://www.w3schools.com/howto/howto_css_flip_card.asp -->
+
+    <div class="grid-container-about">
+        <!-- <div>
+            <img src = "images/symbol_flowchart.png" alt = "Flowhchart Symbol"/>
+            <h2>Business Analysis</h2>
+            <p>As a business analyst, I have written user stories, documented acceptance criteria, investigate feasibility and reconciled designs against API specifications.</p>
+        </div> -->
+
+        <div class="flip-card" tabindex = "0">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src = "images/symbol_flowchart.png" alt = "Flowhchart Symbol">
+              </div>
+              <div class="flip-card-back">
+                <div class ="card-text">
+                    <h2>Business Analysis</h2>
+                    <p>As a business analyst, I have written user stories, documented acceptance criteria, investigate feasibility and reconciled designs against API specifications.</p>
+                 </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        <!-- <div>
+            <img src = "images/symbol_agile.png" alt = "Agile Symbol"/>
+            <h2>Agile Project Management</h2>
+            <p>I didn’t at first think BAs fit into the agile world, until I lived it. Now I’m figuring out how UX designers and design sprints fit!</p>
+        </div> -->
+
+
+        <div class="flip-card" tabindex = "0">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src = "images/symbol_agile.png" alt = "Agile Symbol">
+                </div>
+                  <div class="flip-card-back">
+                    <div class ="card-text">
+                        <h2>Agile Project Management</h2>
+                        <p>I didn’t at first think BAs fit into the agile world, until I lived it. Now I’m figuring out how UX designers and design sprints fit!</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div>
+            <img src = "images/symbol_bug.png" alt = "Bug Symbol"/>
+            <h2>Quality Assurance</h2>
+            <p>A product is also only so valuable that it works the way it was intended. Careful testing of a product is essential to ensure consistency and accuracy.</p>
+        </div> -->
+
+        <div class="flip-card" tabindex = "0">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src = "images/symbol_bug.png" alt = "Bug Symbol">
+                </div>
+                  <div class="flip-card-back">
+                    <div class ="card-text">
+                        <h2>Quality Assurance</h2>
+                        <p>A product is also only so valuable that it works the way it was intended. Careful testing of a product is essential to ensure consistency and accuracy.</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div>
+            <img src = "images/symbol_information_web.png" alt = "Web of Information Symbol"/>
+            <h2>Information Architecture</h2>
+            <p>Beautiful designs are only as useful as the information within is findable. Each project is different, but the effort is oh so worth it!</p>
+        </div> -->
+
+        <div class="flip-card" tabindex = "0">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src = "images/symbol_information_web.png" alt = "Web of Information Symbol">
+                </div>
+                  <div class="flip-card-back">
+                    <div class ="card-text">
+                        <h2>Information Architecture</h2>
+                        <p>Beautiful designs are only as useful as the information within is findable. Each project is different, but the effort is oh so worth it!</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <!-- <div>
+            <img src = "images/symbol_two_person_interview.png" alt = "Two Person Interview Symbol"/>
+            <h2>User Research</h2>
+            <p>Although I have years of experience interviewing stakeholders, I find user research is the best way to figure out, what do we really need to solve?</p>
+        </div> -->
+
+        <div class="flip-card" tabindex = "0">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src = "images/symbol_two_person_interview.png" alt = "Two Person Interview Symbol">
+                </div>
+                  <div class="flip-card-back">
+                    <div class ="card-text">
+                        <h2>User Research</h2>
+                        <p>Although I have years of experience interviewing stakeholders, I find user research is the best way to figure out, what do we really need to solve?</p>
+                     </div>
+                </div>
+            </div>
+        </div>        
+
+        <!-- <div>
+            <img src = "images/symbol_finger_tap.png" alt = "Finger Tapping Device Symbol"/>
+            <h2>Interaction Design</h2>
+            <p>I can create low fidelity wireframes in tools like XD or InVision, investigate user journeys, and iterate for fast solution validation.</p>
+        </div> -->
+
+        <div class="flip-card" tabindex = "0">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src = "images/symbol_finger_tap.png" alt = "Finger Tapping Device Symbol">
+                </div>
+                  <div class="flip-card-back">
+                    <div class ="card-text">
+                        <h2>Interaction Design</h2>
+                        <p>I can create low fidelity wireframes in tools like XD or InVision, investigate user journeys, and iterate for fast solution validation.</p>
+                     </div>
+                </div>
+            </div>
+        </div>        
+
+    </div>  
+
+  </main>
+
+
+
+  <footer>
+    <nav>
+        <ul>
+            <li><a href = "index.html" class = "current">About</a></li>
+            <li><a href = "portfolio.html">Portfolio</a></li>
+            <li><a href = "resume.html">Resume</a></li>
+            <li><a href = "contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class = social>
+        <a href="https://www.linkedin.com/in/andreapellerito" target="_blank" aria-label="Link to Andrea's LinkedIn"><i title="LinkedIn" class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/pellerandrea" target="_blank" aria-label="Link to Andrea's Twitter"><i title="Twitter" class="fab fa-twitter-square"></i></a>
+    </div>
+  </footer>
+
+
+  <script src="js/javascript.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

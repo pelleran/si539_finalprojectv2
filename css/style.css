@@ -1,0 +1,179 @@
+header, footer, body{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;;
+}
+
+body{
+  margin-top: 40px;  
+  padding: 10px;
+  margin: 5px;
+}
+
+section{
+  padding: 10px;
+  margin: 5px;
+}
+
+
+/* text styling */
+    h1{
+      font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+      font-size: 1.5em;
+      padding: .5em .5em .5em 0;
+    }
+
+    h2{
+      font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+      font-size: 1.3em;
+      padding: .5em .5em .5em 0;
+    }
+
+    h3{
+      font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+      font-size: 1.1em;
+      padding: .5em .5em .5em 0;
+    }
+
+    p {
+      padding: 10px;
+      margin: 5px;
+    }
+
+    /* styling fontawesome
+    brand colors - source: http://ksloan.net/css-color-definitions-for-font-awesome-social-icons/ */   
+        .fa-linkedin {
+          color: #007bb6;
+        }
+
+        .fa-twitter-square{
+          color: #00aced;
+        }
+
+        .social {
+          margin: 10px auto;
+          letter-spacing: 2px;
+          font-size: 2em;
+        }
+
+/* link styling     */
+    a:visited {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a:active {
+      text-decoration: underline;
+    }
+
+    li a{
+      text-decoration: none;
+      color: black;
+      }
+
+    li a.current {
+      text-transform: uppercase;
+    }
+
+    li a:focus{
+      text-decoration: underline;
+    }
+
+/* Source for a.skip and a.skip:focus -- sample SI 539 code, starter-layout> style.css */
+/* https://webaim.org/techniques/skipnav/ */
+    a.skip{
+      padding:10px;
+      text-decoration: none;
+      position: relative;
+        top: -80px;
+    }
+
+    a.skip:focus{
+      /* background: white; */
+      top: -20px;
+      border: 1px solid black;
+    }
+
+
+/* sticky nav bar borrowed from https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
+
+    /* Style the navbar */
+    #navbar {
+      overflow: hidden;
+      background-color: #d6b67f;
+    }
+
+    /* Navbar links */
+    #navbar a {
+      float: left;
+      display: block;
+      text-align: center;
+      color: #000;
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 14px;
+      text-decoration: none;
+      width: 200px;
+    }
+
+    /* Page content */
+    .content {
+      padding: 16px;
+    }
+
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 5;
+    }
+
+    /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+    .sticky + .content {
+      padding-top: 60px;
+    }
+
+    #navbar .current{
+      text-transform: uppercase;
+      background-color: #25484c;
+      color: white;
+    }
+
+    #navbar a:hover {
+      background-color: #a43b2f;
+      text-decoration: underline;
+      color: white;
+    }
+
+    #navbar a:focus {
+      background-color: #a43b2f;
+      text-decoration: underline;
+      color: white;
+    }
+
+
+
+/* Two different ways to specificy a list...guess it depends on the use case: 
+make a class like "square" or define it based on the id that it is contained in */
+    ul.square li{
+      list-style-type: square;
+      margin: 0 0 10px 35px;
+    }
+
+    #content ol li{
+      list-style-type: decimal;
+      margin: 0 0 10px 35px;
+    }
+
+
+/* media queries for screen sizes */
+    @media screen and (min-width:700px){
+      header nav li {
+        display: inline-flex;
+      }
+      header nav ul {
+        width: auto;
+      }
+    }

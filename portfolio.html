@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138692623-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-138692623-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- added so that the media query will work -->
+    <link rel="shortcut icon" href="images/symbol_agile.png">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title >Portfolio - Andrea Pellerito</title>
+</head>
+
+<body>
+
+  <a href="#content" class="skip">Skip to content</a>
+
+
+  <header>
+
+    <!-- sticky nav source: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp -->
+
+      <div id="navbar">
+        <a href="index.html">About</a>
+        <a href="portfolio.html" class = "current">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="resume.html">Resume</a>
+        </div>
+  </header>
+
+
+  <main id="content">
+   
+      <h1>Portfolio</h1>
+      <!-- <div class = "gallery">
+        <img src = "images/collaboration_agreement.jpg" alt = "Photo of hands meeting in agreement"/>
+        <img src = "images/collaboration_brainstorming.jpg" alt = "Photo of adults brainstorming in meeting"/>
+        <img src = "images/collaboration_cozy_meeting.jpg" alt = "Photo of women collaborating at casual location"/>
+        <img src = "images/collaboration_handshake.jpg" alt = "Photo of team members meeting client and handshake"/>
+        <img src = "images/collaboration_volunteers.jpg" alt = "Photo of volunteers outside wearing matching t-shirts"/>
+      </div> -->
+
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="slides fade">
+          <img src = "images/collaboration_agreement.jpg" alt = "Photo of hands meeting in agreement"/>
+        </div>
+
+        <div class="slides fade">
+          <img src = "images/collaboration_brainstorming.jpg" alt = "Photo of adults brainstorming in meeting"/>
+        </div>
+
+        <div class="slides fade">
+          <img src = "images/collaboration_cozy_meeting.jpg" alt = "Photo of women collaborating at casual location"/>
+        </div>
+
+        <div class="slides fade">
+          <img src = "images/collaboration_handshake.jpg" alt = "Photo of team members meeting client and handshake"/>
+        </div>
+        
+        <div class="slides fade">
+          <img src = "images/collaboration_volunteers.jpg" alt = "Photo of volunteers outside wearing matching t-shirts"/>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)" tabindex="0" onfocus="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)" tabindex="0" onfocus="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)" tabindex="0" onfocus="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)" tabindex="0" onfocus="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)" tabindex="0" onfocus="currentSlide(5)"></span>  
+      </div>
+
+
+
+
+
+    <div class="project_display">
+      
+        <img src = "images/project_happy_housemates.png" alt = "Screenshot of Happy Housemates prototype"/>
+
+        <section>
+          <h2>Happy Housemates</h2>
+          <p>Role: Researcher & Designer</p>
+          <p>Team: Self</p>
+          <p>Project: For SI 582, we were asked to consider a community, research that community and competitor products, and come up with an interactive solution. The community I chose was unrelated adult housemates. I created the prototype to meet two needs of this group:</p>
+            <ol>
+              <li>Encourage individuals to understand their own preferences and how their preferences differ from others in the household</li>
+              <li>Help housemates become aware of and address differences before they come an issue</li>
+            </ol>
+        </section>
+    
+        <img src = "images/project_python_data.png" alt = "Screenshot of Python code"/>
+
+        <section>
+          <h2>Guardian & NYT Data Investigation</h2>
+          <p>Role: Developer and Analyst</p>
+          <p>Team: Self</p>
+          <p>Project: For SI 506, we were asked to follow project guidelines to create classes, define functions, call methods, and create some human-readable output. I investigated average word counts and ouput the data to a CSV file.</p>
+        </section>
+
+        <img src = "images/presentation_whatisaba.PNG" alt = "Screenshot of Presentation Coverpage"/>
+
+        <section>
+          <h2>What is a BA? Presentation</h2>
+          <p>Role: Presenter, Organizer (Motor City Business Analysts)</p>
+          <p>Team: Self</p>
+          <p>Project: I’m really passionate about the importance of the business analyst role on projects (whether in title, or in practice). In this presentation, I describe what a BA does and how they add value to projects.</p>
+        </section>
+
+        <div class = "flex-side-by-side">
+            <img src = "images/project_thrive_login.PNG" alt = "Screenshot of login screen on the Thrive app"/>
+            <img src = "images/project_thrive_bulletin.PNG" alt = "Screenshot of bulletin board screen on the Thrive app"/>
+        </div>
+
+        <section>
+          <h2>Thrive College App</h2>
+          <p>Role: Scrum Master, Business Analyst,& QA</p>
+          <p>Team: Client, RIIS team (UI designer, developers)</p>
+          <p>Project: This project was both exciting and challenging because I was responsible for getting it off the ground. I led the development team through sprints 0 - 6. I coached the client through implementation decisions. It was amazing seeing an app morph from ideas and designs to a working product.</p>
+        </section>
+
+        <section>
+          <h2>Selecting & Applying Requirement Gathering Techniques</h2>
+            <p>Role: Presenter, Organizer (Motor City Business Analysts)</p>
+            <p>Team: Self</p>
+            <p>Project: In this presentation, I give an overview of project fundamentals.</p>
+          <ul class= "square">
+            <li>Engaging stakeholders</li>
+            <li>Recognizing project inputs</li>
+            <li>Determining project outputs</li>
+            <li>10 techniques for gathering requirements</li>
+            <li>Bringing it all together</li>
+          </ul>
+        </section>
+        
+        <section>
+          <h2>Project under NDA</h2>
+          <p>Role: Business Analyst</p>
+          <p>Team: Client, team (UX designers, developers)</p>
+          <p>Project:</p>
+          <ul class= "square">
+            <li>Launched metrics on AEM platform</li>
+            <li>Documented requirements for Adobe Experience Manager (AEM) solution development</li>
+            <li>Wrote “How to Author in AEM” guide for Accessibility enhancements</li>
+          </ul>
+        </section>
+        
+        <section>
+          <h2>Project under NDA</h2>
+          <p>Role: Business Analyst</p>
+          <p>Team: Client, team (UX designers, developers)</p>
+          <p>Project:</p>
+          <ul class= "square">
+            <li>Facilitated requirement gathering between product owners, SMEs, vendors, and IT</li>
+            <li>Broke down business and technical requirements into user story format, documented acceptance criteria and error states, managed Confluence space and authored templates, and mapped API parameters to UI designs</li>
+            <li>E-commerce – Translated business needs and mapped to APIs (contracts, address and tax validation)</li>
+          </ul>
+        </section>
+
+      </div>
+    </main>
+
+
+    <footer>
+      <nav>
+          <ul>
+              <li><a href = "index.html">About</a></li>
+              <li><a href = "portfolio.html" class = "current">Portfolio</a></li>
+              <li><a href = "resume.html">Resume</a></li>
+              <li><a href = "contact.html">Contact</a></li>
+          </ul>
+      </nav>
+      <div class = social>
+        <a href="https://www.linkedin.com/in/andreapellerito" target="_blank" aria-label="Link to Andrea's LinkedIn"><i title="LinkedIn" class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/pellerandrea" target="_blank" aria-label="Link to Andrea's Twitter"><i title="Twitter" class="fab fa-twitter-square"></i></a>
+      </div>
+    </footer>
+    <script src="js/javascript.js"></script>
+    <script src="js/portfolio.js"></script>
+  </body>
+  </html>

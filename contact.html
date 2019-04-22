@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138692623-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-138692623-1');
+    </script>
+
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- added so that the media query will work -->
+      <link rel="shortcut icon" href="images/symbol_agile.png">
+      <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/contact.css">
+      <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      <title >Contact - Andrea Pellerito</title>
+  </head>
+
+  <body>    
+    <a href="#content" class="skip">Skip to content</a>
+
+    <header>
+      <!-- <nav>
+        <ul>
+          <li><a href = "index.html">About</a></li>
+          <li><a href = "portfolio.html">Portfolio</a></li>
+          <li><a href = "resume.html">Resume</a></li>
+          <li><a href = "contact.html" class  = "current">Contact</a></li>
+        </ul>
+      </nav> -->
+
+<!-- sticky nav source: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp -->
+
+
+      <div id="navbar">
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html" class = "current">Contact</a>
+        <a href="resume.html">Resume</a>
+        </div>
+    </header>
+
+
+    <main id="content">
+
+      <h1>Contact</h1>
+
+      <img src = "images/pelleran_at_play.jpg" alt = "Photo of Andrea at the Hoover Dam"/>
+
+      <p>Andrea Pellerito<br>
+        Email: andrea.pellerito@gmail.com<br>
+      </p>
+
+      <!-- callout
+      source: https://www.w3schools.com/howto/howto_js_callout.asp -->
+
+      <div class="callout" tabindex="0">
+          <div class="callout-header">Let's Collaborate</div>
+          <span class="closebtn" tabindex="0" onkeypress="this.parentElement.style.display='none';" onclick="this.parentElement.style.display='none';">&times;</span>
+          <div class="callout-container">
+              <p>Want to work on a project together? Send me a note!</p>
+              <p>Email: andrea.pellerito@gmail.com</p>
+          </div>
+        </div>
+
+<!-- 
+        <div class="callout">
+            <div class="callout-header">Callout Header</div>
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+            <div class="callout-container">
+              <p>Some text to describe the callout message. <a href="#">Learn more</a> or close it if it is in your way.</p>
+            </div>
+          </div>   -->
+
+      <p>I'm currently looking for an internship in the summer of 2019. In my internship, I hope to apply interaction design and UX research methods. I'm passionate about information architecture, accessibilty and overall making excellent products!</p>
+
+      <p>I am also available for:</p>
+        <ul class= "square">
+          <li>Consulting</li>
+          <li>Short and long-term assignments</li>
+        </ul>
+
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href = "index.html">About</a></li>
+          <li><a href = "portfolio.html">Portfolio</a></li>
+          <li><a href = "resume.html">Resume</a></li>
+          <li><a href = "contact.html" class  = "current">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class = social>
+
+        <a href="https://www.linkedin.com/in/andreapellerito" target="_blank" aria-label="Link to Andrea's LinkedIn"><i title="LinkedIn" class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/pellerandrea" target="_blank" aria-label="Link to Andrea's Twitter"><i title="Twitter" class="fab fa-twitter-square"></i></a>
+      </div>
+
+    </footer>
+    <script src="js/javascript.js"></script>
+  </body>
+</html>

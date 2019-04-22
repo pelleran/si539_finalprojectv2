@@ -1,0 +1,42 @@
+/* for this page only, don't let the paragraph stretch so wide */
+p {
+  max-width: 500px;
+}
+
+/* callout source:
+https://www.w3schools.com/howto/howto_js_callout.asp */
+
+/* Callout box - fixed position at the bottom of the page */
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #a43b2f;
+  font-size: 30px;
+  color: white;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #d6b67f;
+  color: #25484c;
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.closebtn:hover, .closebtn:focus {
+  text-decoration: underline;
+}
